@@ -1,0 +1,282 @@
+body {
+    background-color: #FBFFFE;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+
+    font-family: 'Mingzat', sans-serif;
+    color: #011627;
+}
+
+/*Navigation Bar*/
+
+.nav-container {
+    display: flex;
+    margin-top: 30px;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo img {
+    height: 500px;
+    width: 500px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none!important;
+    color: black;
+    width: 700px;
+    margin-right: 80px;
+}
+
+.navigation a {
+    text-decoration: none;;
+    color: black;
+}
+
+.navigation a:hover {
+    color: #577399;
+}
+
+.header .nav-container .navigation {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+
+/*Main content*/
+
+.drone-shots {
+    margin-top:50px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 100%;
+    height: 500px;
+}
+
+#drone-shot-img img{
+    width: auto;
+    height: 100%;
+
+    border-radius: 14px;
+}
+
+/* What we do */
+
+.what-we-do-title h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 150px;
+}
+
+.what-we-do-textbox {
+    width: 100%;
+}
+
+.what-we-do-textbox .description {
+    width: 700px;
+    text-align: justify;
+    margin:0 auto;
+
+    font-size: 30px;
+
+    line-height: 35px;
+}
+
+/* Our Preferences */
+
+.preferences {
+    width: 100%;
+    text-align: center
+}
+
+.preferences h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.preferences h2 {
+    margin:0;
+}
+
+/* Client Card */
+
+.clients-list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.client {
+    display: flex;
+
+    border: 1px solid white;
+    width: 320px;
+    height: 450px;
+    border-radius: 20px;
+
+
+    margin: 30px 0 30px 0;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    overflow: hidden;
+}
+
+.client .client-pictures {
+    width: 350px;
+    height:100%;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+} 
+
+.client-pictures-flex-container {
+    display: flex;
+}
+
+.client .client-portrait {
+    width:  550px;
+    height: auto;
+
+    overflow: hidden;
+}
+
+#note p{
+    font-size: 20px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+}
+
+#note h4 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 500;
+}
+
+.client .client-portrait #portrait-1 {
+    width:  250px;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: -180px; 
+
+}
+
+.client .client-portrait #portrait-2 {
+    width:  150px;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.clients-list .client .client-pictures .client-logo {
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+}
+
+.client .client-logo img {
+    width:  100%;
+    height: auto;
+
+    overflow: hidden;
+}
+
+.client .client-logo #audi-logo {
+    width:  100%;
+    height: auto;
+
+    margin: 0 30px 0 30px;
+
+    overflow: hidden;
+}
+
+.client .client-note {
+    line-height: 20px;
+
+    vertical-align: middle;
+    text-align: left;
+
+    margin: auto 20px auto 20px;
+}
+
+/*Team css*/
+.team-section { 
+    width: 100%;
+    text-align: center;
+}
+
+.team-section h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.team-section h2 {
+    margin: 0;
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.team-list .team {
+    width: 350px;
+    height: 450px;
+}
+
+.team-portrait {
+    width: 250px;
+    height: 250px;
+
+    overflow: hidden;
+
+    border-radius: 50%;
+
+    margin: 0 auto 0 auto;
+
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+}
+
+.team-portrait img{
+    width: 450px;
+    height: auto;
+
+    object-fit: contain;
+    object-position: -80px -100px;
+
+}
+
+/*Contact CSS*/
+
+.contact-section h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 150px;
+}
+
+.contact-section h2 {
+    text-align: center;
+}
+
+.contact-section p {
+    text-align: center;
+}
